@@ -1,0 +1,13 @@
+.footer__link-wrapper {
+  margin: 0;
+  margin-bottom: 10px;
+  padding: 0;
+  line-height: 18px;
+  font-size: 18px;
+  font-weight: 400;
+  list-style: none;
+}
+
+.footer__link-wrapper:nth-of-type(3n) {
+  margin-bottom: 0;
+}

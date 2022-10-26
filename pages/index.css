@@ -1,37 +1,200 @@
-@font-face {
-  src: url(../vendor/fonts/Inter-Regular.woff) format('woff'),
-       url(../vendor/fonts/Inter-Regular.woff2) format('woff2');
-  font-family: 'Inter', 'Arial', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-}
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts/fonts.css);
 
-@font-face {
-  src: url(../vendor/fonts/Inter-SemiBold.woff) format('woff'),
-       url(../vendor/fonts/Inter-SemiBold.woff2) format('woff2');
-  font-family: 'Inter', 'Arial', sans-serif;
-  font-style: normal;
-  font-weight: 600;
-}
+/* PAGE */
+@import url(../blocks/page/page.css);
+@import url(../blocks/page/__digits/page__digits.css);
+@import url(../blocks/page/__techniques/page__techniques.css);
 
-@font-face {
-  src: url(../vendor/fonts/Inter-Bold.woff) format('woff'),
-       url(../vendor/fonts/Inter-Bold.woff2) format('woff2');
-  font-family: 'Inter', 'Arial', sans-serif;
-  font-style: normal;
-  font-weight: 700;
+/* HEADER */
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__title/header__title.css);
+@import url(../blocks/header/__subtitle/header__subtitle.css);
+@import url(../blocks/header/__link/header__link.css);
+@import url(../blocks/header/__square-pic/header__square-pic.css);
+@import url(../blocks/header/__main-illustration/header__main-illustration.css);
+
+/* LOGO */
+@import url(../blocks/logo/logo.css);
+@import url(../blocks/logo/_place/logo_place_header.css);
+@import url(../blocks/logo/_place/logo_place_footer.css);
+
+/* ROTATION */
+@import url(../blocks/rotation/rotation.css);
+
+/* DESCRIPTION */
+@import url(../blocks/description/description.css);
+
+/* TWO-COLUMNS */
+@import url(../blocks/two-columns/two-columns.css);
+@import url(../blocks/two-columns/__brief/two-columns__brief.css);
+@import url(../blocks/two-columns/__main-text/two-columns__main-text.css);
+@import url(../blocks/two-columns/__paragraph/two-columns__paragraph.css);
+@import url(../blocks/two-columns/__span-accent/two-columns__span-accent.css);
+
+/* TECHNIQUES */
+@import url(../blocks/techniques/techniques.css);
+@import url(../blocks/techniques/__section-title/techniques__section-title.css);
+
+/* SECTION-TITLE */
+@import url(../blocks/section-title/section-title.css);
+@import url(../blocks/section-title/_theme/section-title_theme_dark.css);
+
+/* SECTION-SUBTITLE */
+@import url(../blocks/section-subtitle/section-subtitle.css);
+@import url(../blocks/section-subtitle/_theme/section-subtitle_theme_dark.css);
+
+/* CARDS */
+@import url(../blocks/cards/cards.css);
+@import url(../blocks/cards/__item/cards__item.css);
+@import url(../blocks/cards/__image/cards__image.css);
+@import url(../blocks/cards/__title/cards__title.css);
+@import url(../blocks/cards/__description/cards__description.css);
+
+/* VIDEO */
+@import url(../blocks/video/video.css);
+@import url(../blocks/video/__section-title/video__section-title.css);
+@import url(../blocks/video/__iframes/video__iframes.css);
+@import url(../blocks/video/__iframe/video__iframe.css);
+
+/* OAKLEY */
+@import url(../blocks/oakley/oakley.css);
+@import url(../blocks/oakley/__two-columns/oakley__two-columns.css);
+
+/* FEYNMAN */
+@import url(../blocks/feynman/feynman.css);
+@import url(../blocks/feynman/__title/feynman__title.css);
+@import url(../blocks/feynman/__subtitle/feynman__subtitle.css);
+@import url(../blocks/feynman/__link/feynman__link.css);
+
+/* DIGITS */
+@import url(../blocks/digits/__section-title/digits__section-title.css);
+
+/* TABLE */
+@import url(../blocks/table/table.css);
+@import url(../blocks/table/__cell/table__cell.css);
+@import url(../blocks/table/__cell/_theme/table__cell_theme_dark.css);
+@import url(../blocks/table/__heading/table__heading.css);
+@import url(../blocks/table/__heading/_theme/table__heading_theme_dark.css);
+@import url(../blocks/table/__text/table__text.css);
+@import url(../blocks/table/__text/_theme/table__text_theme_dark.css);
+
+/* KHAN */
+@import url(../blocks/khan/khan.css);
+@import url(../blocks/khan/__container/khan__container.css);
+@import url(../blocks/khan/__author/khan__author.css);
+@import url(../blocks/khan/__title/khan__title.css);
+@import url(../blocks/khan/__quote/khan__quote.css);
+@import url(../blocks/khan/__quote-author/khan__quote-author.css);
+@import url(../blocks/khan/__quote-author-subline/khan__quote-author-subline.css);
+@import url(../blocks/khan/__book-container/khan__book-container.css);
+@import url(../blocks/khan/__book-pic/khan__book-pic.css);
+@import url(../blocks/khan/__buy-link/khan__buy-link.css);
+
+/* KAUFMAN */
+@import url(../blocks/kaufman/kaufman.css);
+@import url(../blocks/kaufman/__section-subtitle/kaufman__section-subtitle.css);
+@import url(../blocks/kaufman/__triangle/kaufman__triangle.css);
+
+/* RESOURCES */
+@import url(../blocks/resources/resources.css);
+@import url(../blocks/resources/__section-subtitle/resources__section-subtitle.css);
+@import url(../blocks/resources/__logo-zone/resources__logo-zone.css);
+@import url(../blocks/resources/__logo/resources__logo.css);
+@import url(../blocks/resources/__link/resources__link.css);
+
+/* FOOTER */
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__columns/footer__columns.css);
+@import url(../blocks/footer/__columns/_content/footer__columns_content_copyright.css);
+@import url(../blocks/footer/__columns/_content/footer__columns_content_info.css);
+@import url(../blocks/footer/__columns/_content/footer__columns_content_social.css);
+@import url(../blocks/footer/__author/footer__author.css);
+@import url(../blocks/footer/__column-heading/footer__column-heading.css);
+@import url(../blocks/footer/__column-links/footer__column-links.css);
+@import url(../blocks/footer/__link-wrapper/footer__link-wrapper.css);
+@import url(../blocks/footer/__column-link/footer__column-link.css);
+@import url(../blocks/footer/__social-icon/footer__social-icon.css);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 .page {
   min-width: 1100px;
-  /* мы ещё не умеем делать мобильную версию сайта, */
-  /* поэтому выше установлена минимальная ширина страницы */
+
   max-width: 1600px;
-  /* выше установили ограничение по максимальной ширине */
+
   margin: 0 auto;
-  /* выше для экранов больше 1600px отцентрировали весь контент */
+
   font-family: 'Inter', Arial, sans-serif;
 }
+
+.page__techniques {
+  width: 80%;
+  margin: 100px auto;
+}
+
+
+.page__digits {
+  margin-bottom: 100px;
+}
+
 
 .header {
   height: 100vh;
@@ -41,6 +204,7 @@
   display: flex;
   position: relative;
   padding-top: 64px;
+  overflow: hidden;
 }
 
 .header__title {
@@ -54,6 +218,7 @@
   font-size: 102px;
   font-weight: 600;
 }
+
 
 .header__subtitle {
   width: 388px;
@@ -71,6 +236,12 @@
 .header__link {
   color: #2f80ed;
   text-decoration: none;
+  transition: 0.5s;
+}
+
+.header__link:hover {
+  opacity: 70%;
+  cursor: pointer;
 }
 
 .header__main-illustration {
@@ -89,7 +260,6 @@
   background-color: #2f80ed;
 }
 
-
 .logo {
   width: 228px;
   height: 32px;
@@ -102,16 +272,484 @@
   z-index: 5;
 }
 
+.logo_place_footer {
+  width: 228px;
+  height: 32px;
+}
+
+.description {
+  display: flex;
+  padding: 0;
+  padding-top: 100px;
+}
+
+.two-columns {
+  margin: 0 auto;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.two-columns__brief {
+  width: 175px;
+  margin: 0;
+  padding: 0;
+  color: #2f80ed;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: 400;
+}
 
 
+.two-columns__main-text {
+  width: 80%;
+  min-width: 784px;
+}
 
+.two-columns__paragraph {
+  margin: 0;
+  padding: 0;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: 400;
+}
 
+.two-columns__paragraph:nth-of-type(2n) {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
 
+.two-columns__span-accent {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: 600;
+}
 
-/* и элемента с модификатором вида ключ-значение */
+.techniques {
+  display: flex;
+  flex-direction: column;
+}
+
+.techniques__section-title {
+margin: 100px auto 20px;
+}
+
+.section-title {
+  width: 60%;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: 600;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.section-title_theme_dark {
+  color: #fff;
+  position: relative;
+  z-index: 2;
+}
+
+.section-subtitle {
+  width: 60%;
+  margin: 0 auto;
+  padding: 0;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.section-subtitle_theme_dark {
+  color: #fff;
+}
+
+.cards {
+  width: 920px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cards__item {
+  width: 240px;
+  margin-right: 100px;
+}
+
+.cards__item:nth-of-type(3n) {
+  margin-right: 0;
+}
+
+.cards__image {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  margin-top: 60px;
+  margin-right: 40px;
+  margin-bottom: 43px;
+  margin-left: 40px;
+}
+
+.cards__title {
+  margin: 0;
+  margin-bottom: 16px;
+  padding: 0;
+  text-align: center;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.cards__description {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  line-height: 23px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.digits__section-title {
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+
+.table {
+  width: 1100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
+}
+
+.table__cell {
+  width: 250px;
+  margin-top: 60px;
+}
+
 .table__cell_theme_dark {
   width: 200px;
   color: white;
   margin-right: 0;
   margin-top: 80px;
 }
+
+
+.table__heading {
+  margin: 0;
+  padding: 0;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.table__text {
+  margin: 0;
+  margin-top: 20px;
+  padding: 0;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.kaufman {
+  background-color: #1f1f1f;
+  padding: 90px 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.kaufman__triangle {
+  position: absolute;
+  top: 0;
+  right: -210px;
+  z-index: 1;
+  width: 877px;
+  height: 877px;
+}
+
+.kaufman__section-subtitle {
+  margin-top: 20px;
+}
+
+.resources {
+  padding: 100px 0 217px 0;
+}
+
+.resources__section-subtitle {
+  margin-top: 20px;
+}
+
+.resources__logo-zone {
+  width: 1100px;
+  margin-top: 80px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.resources__logo {
+  width: 270px;
+  height: 38px;
+}
+
+.resources__link {
+  transition: 0.5s;
+}
+
+.resources__link:hover {
+  opacity: 70%;
+}
+
+.footer {
+  background-color: #1f1f1f;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+ .footer__columns {
+   width: 90%;
+   margin: 0 auto;
+   display: flex;
+   justify-content: space-between;
+ }
+
+.footer__columns_content_copyright {
+  flex-basis: 711px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer__author {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  margin: 18px 0;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.footer__column-heading {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 20px;
+  color: white;
+  line-height: 18px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.footer__column-links {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 16px;
+}
+
+.footer__column-link {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.footer__column-link:hover {
+  opacity: 70%;
+}
+
+.footer__link-wrapper {
+  margin: 0;
+  margin-bottom: 10px;
+  padding: 0;
+  line-height: 18px;
+  font-size: 18px;
+  font-weight: 400;
+  list-style: none;
+}
+
+.footer__link-wrapper:nth-of-type(3n) {
+  margin-bottom: 0;
+}
+
+.rotation {
+  animation: rotation linear infinite 20s;
+}
+
+.video {
+  display: flex;
+  flex-direction: column;
+}
+
+.video__iframes {
+  display: flex;
+  margin: 50px auto 0 auto;
+  transform: translate(0, 50px);
+}
+
+.video__iframe {
+  width: 515px;
+  height: 316px;
+}
+
+.video__iframe:nth-of-type(2n) {
+  margin-left: 20px;
+}
+
+.video__section-title {
+  margin-bottom: 20px;
+}
+
+.oakley {
+  background-color: #f2f2f2;
+}
+
+.oakley__two-columns {
+  padding-top: 160px;
+  padding-bottom: 100px;
+}
+
+.feynman {
+  height: 890px;
+  background-color: #f2f2f2;
+  background-image: url(../images/feynman.png);
+  background-size: 867px 637px;
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  padding-top: 100px;
+  position: relative;
+}
+
+.feynman__title {
+  margin: 0 auto;
+  padding: 0;
+  width: 648px;
+  text-align: center;
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: 600;
+}
+
+.feynman__subtitle {
+  width: 400px;
+  margin: 70px auto 0;
+  padding: 0;
+  text-align: center;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: 400;
+}
+
+.feynman__link {
+  position: absolute;
+  top: 50%;
+  right: 48px;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: 400;
+  color: #2f80ed;
+  transition: 0.5s;
+}
+
+.feynman__link:hover {
+  opacity: 70%;
+  cursor: pointer;
+}
+
+.khan {
+  background-color: #f2f2f2;
+  padding-top: 100px;
+}
+
+.khan__container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.khan__author {
+  margin: 0;
+  padding: 0;
+  line-height: 42px;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.khan__title {
+  margin: 0;
+  margin-bottom: 50px;
+  padding: 0;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: 600;
+}
+
+.khan__quote {
+  display: inline-block;
+  width: 790px;
+  margin: 0;
+  margin-bottom: 36px;
+  padding: 0;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.khan__quote-author {
+  display: block;
+  margin: 0;
+  margin-bottom: 10px;
+  padding: 0;
+  font-style: normal;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.khan__quote-author-subline {
+  margin: 0;
+  margin-bottom: 68px;
+  padding: 0;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.khan__book-container {
+  display: flex;
+}
+
+.khan__book-pic {
+  width: 620px;
+  height: 608px;
+  object-fit: cover;
+  object-position: top;
+}
+
+.khan__buy-link {
+  margin-left: 48px;
+  color: #2f80ed;
+  text-decoration: none;
+  line-height: 42px;
+  font-size: 30px;
+  font-weight: 400;
+  transition: 0.5s;
+}
+
+.khan__buy-link:hover {
+  opacity: 70%;
+  cursor: pointer;
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,6 +1,9 @@
 .cards__item {
   width: 240px;
+  margin: 0;
   margin-right: 100px;
+  padding: 0;
+  list-style: none;
 }
 
 .cards__item:nth-of-type(3n) {
